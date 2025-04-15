@@ -25,6 +25,18 @@ export const Template = (args) => <ProgressBar {...args} />;
 
 # ProgressBar
 
-<Story name="Default" args={{ value: 50, size: 'medium' }}>
+<Story name="Default" args={{ value: 98}}>
+  {Template.bind({})}
+</Story>
+
+<Story name="Small" args={{ value: 98, size: 'small' }}>
+  {Template.bind({})}
+</Story>
+
+<Story name="Medium" args={{ value: 98, size: 'medium' }}>
+  {Template.bind({})}
+</Story>
+
+<Story name="Large" args={{ value: 98, size: 'large' }}>
   {Template.bind({})}
 </Story>
